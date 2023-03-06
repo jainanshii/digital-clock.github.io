@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    
+    
+  }
+  body{
+    box-sizing:border-box;
+   /* background-image: url("https://www.popsci.com/uploads/2020/06/05/3NIEQB3SFVCMNHH6MHZ42FO6PA.jpg?auto=webp");*/
+   background-image: url("http://wallpaperset.com/w/full/3/f/7/243952.jpg");
+    background-repeat: no-repeat;
+  }
+  #container{
+    position:fixed;
+    top:150px;
+    left:200px;
+    display:flex;
+    
+         
+  }
+  .space{
+    margin-left: 70px;
+  }
+  #box1,#box2,#box3,#box4,#box5{
+    display:flex;
+    flex-direction: column;
+    height:300px;
+    width:200px;
+    background-color:rgba(245, 245, 245, 0.719);
+    border:1px solid rgb(0, 0, 0);
+    border-radius:30%;
+    /* box-shadow: 5px 10px 20px #888888;*/
+    text-align:center;
+    font-size: 3rem;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .colon1,.colon2{
+    position:fixed;
+    top:230px;
+    color:green;
+    font-size: 150px;
+    font-weight: bold;
+  }
+  .colon1{left:480px;}
+  .colon2{left:755px;}
+ .text{
+  font-size: 200px;
+  color:rgb(80, 120, 80);
+  font-weight:lighter;
+ 
+ }
+ #main{
+  position:fixed;
+  top:150px;
+  left:150px;
+  height:420px;
+  width:1200px;
+  border:2px solid rgba(0, 0, 0, 0.041);
+  display: block;
+  background-color:#c8525200;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.442);
+ }
+ .heading{
+  color:rgb(187, 215, 237);
+  text-align:center;
+  font-size:80px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-top:0px;
+ }
+ .js{
+  position:fixed;
+  bottom: 100px;
+  left:1300px;
+  font-size:20px;
+ }
